@@ -34,7 +34,7 @@ class Counter extends React.Component {
         </button>
         <h4 id="counter">{this.state.counter}</h4>
         <button class="clicker" id="clickup" onClick={this.handleButtonClickUp}>
-          +1
+          +1+
         </button>
       </div>
     );
